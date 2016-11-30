@@ -75,6 +75,12 @@ if ($ADMIN->fulltree) {
     $setting->set_updatedcallback('theme_reset_all_caches');
     $page->add($setting);
 
+    // Must add the page after defining all the settings!
+    $settings->add($page);
+
+    // Each page is a tab - the second is the "Backgrounds" tab.
+    $page = new admin_settingpage('theme_photo_backgrounds', get_string('backgrounds', 'theme_photo'));
+
     // Default background setting.
     // We use variables for readability.
     $name = 'theme_photo/defaultbackgroundimage';
@@ -135,7 +141,7 @@ if ($ADMIN->fulltree) {
     // We always have to add the setting to a page for it to have any effect.
     $page->add($setting);
 
-    // Must add the page after definiting all the settings!
+    // Must add the page after defining all the settings!
     $settings->add($page);
 
     // Advanced settings.

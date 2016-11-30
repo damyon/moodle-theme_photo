@@ -27,6 +27,8 @@ defined('MOODLE_INTERNAL') || die();
 
 // The name of the second tab in the theme settings.
 $string['advancedsettings'] = 'Advanced settings';
+// The backgrounds tab name.
+$string['backgrounds'] = 'Backgrounds';
 // The brand colour setting.
 $string['brandcolor'] = 'Brand colour';
 // The brand colour setting description.
