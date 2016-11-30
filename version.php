@@ -39,3 +39,10 @@ $plugin->component = 'theme_photo';
 $plugin->dependencies = [
     'theme_boost' => '2016102100'
 ];
+
+// This is a stable release.
+$plugin->maturity = MATURITY_STABLE;
+
+// This is the named version.
+$plugin->release = '1.0';
+
