@@ -61,7 +61,7 @@ $THEME->rendererfactory = 'theme_overridden_renderer_factory';
 // This is a list of blocks that are required to exist on all pages for this theme to function correctly. For example
 // bootstrap base requires the settings and navigation blocks because otherwise there would be no way to navigate to all the
 // pages in Moodle. Boost does not require these blocks because it provides other ways to navigate built into the theme.
-$THEME->undeletableblocktypes = '';
+$THEME->requiredblocks = '';
 
 // This is a feature that tells the blocks library not to use the "Add a block" block. We don't want this in boost based themes
 // because it forces a block region into the page when editing is enabled and it takes up too much room.
