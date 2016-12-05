@@ -17,6 +17,9 @@ body.pagelayout-incourse {
     background-image: url([[pix:theme_photo|incoursebackgroundimage]]);
     background-size: cover;
 }
+body.pagelayout-embedded,
+body.pagelayout-popup,
+body.pagelayout-secure,
 body.pagelayout-print {
     background-image: none;
 }
